@@ -13,7 +13,7 @@ $ git init [project-name]
 $ git clone [url]
 
 #### 3.新增/删除文件
-# 添加指定文件到暂存区
+#### 添加指定文件到暂存区
 $ git add [file1] [file2] ...
 
 #### 添加指定目录到暂存区，包括子目录
@@ -244,7 +244,7 @@ $ git reset --hard [commit]
 $ git reset --keep [commit]
 
 #### 新建一个commit，用来撤销指定commit
-# 后者的所有变化都将被前者抵消，并且应用到当前分支
+#### 后者的所有变化都将被前者抵消，并且应用到当前分支
 $ git revert [commit]
 
 #### 暂时将未提交的变化移除，稍后再移入
